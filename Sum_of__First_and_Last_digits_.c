@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int N,sum=0,L,F;
-    scanf("%d",&N);
-    L=N%10;
-    while(N>=10)
+    int n,sum=0,l,f;
+    scanf("%d",&n);
+    l=n%10;
+    while(n>=10)
     {
-        N=N/10;
+        n=n/10;
     }
-    F=N;
-    sum=F+L;
+    f=n;
+    sum=f+l;
     printf("%d",sum);
 }
